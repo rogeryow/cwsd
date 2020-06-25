@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		body {
+			font-family: calibri;
+		}
+		.flex-container {
+			display: flex;
+			flex-wrap: wrap;
+		}
+		.printed-done {
+			background-color: #ff6464 !important;
+		}
+		.flex-head {
+			flex: 1 100%;
+		}
+		.flex-table {
+			flex: 1;
+		}
+		.flex-list {
+			flex: 1;
+		}
+		.iframe-id {
+			width: 800px;
+		}
+	</style>
+	<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.21/css/jquery.dataTables.min.css">
+</head>
+<body>
+	<div class="flex-container">
+		<div class="flex-head">
+			<h2>CWSD ALPHA TESTING PHASE</h2>
+		</div>
+
+		<div class="flex-table">
+			<table id="table-users">
+				<thead>
+					<tr>
+						<th>ID</th>
+						<th>First Name</th>
+						<th>Last Name</th>
+						<th>Address</th>
+						<th>Date</th>
+						<th>Age</th>
+						<th>Printed</th>
+					</tr>
+				</thead>
+			</table>
+		</div>
+
+		<div class="flex-list">
+			<span>total: </span>
+			<ul id="print-list"></ul>
+			<button id="btn-print">Print</button>
+		</div>
+	</div>
+
+	<iframe id="iframe-id" src=""></iframe>
+
+
+	<script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+	<script src="https://cdn.datatables.net/1.10.21/js/
+	jquery.dataTables.min.js"></script>
+
+	<script src="https://cdn.jsdelivr.net/g/filesaver.js"></script>
+	<script src="https://unpkg.com/jspdf@1.5.3/dist/jspdf.min.js"></script>
+	<script src="https://unpkg.com/jspdf-autotable@3.2.11/dist/jspdf.plugin.autotable.js"></script>
+
+	<script src="datatable.js"></script>
+</body>
+</html>

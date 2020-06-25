@@ -1,0 +1,74 @@
+[
+	{
+		"id" : 0,
+		"first name" : "Roger",
+		"last name" : "Pantil",
+		"address" : "Roxas Extension",
+		"date of birth" : "25/06/2020",
+		"age" : 26,
+		"printed" : "0"
+	},
+	{
+		"id" : 1,
+		"first name" : "Nieve",
+		"last name" : "Gabriel",
+		"address" : "sample address",
+		"date of birth" : "30/07/2020",
+		"age" : 28,
+		"printed" : "1"
+	},
+	{
+		"id" : 2,
+		"first name" : "Mark",
+		"last name" : "Libres",
+		"address" : "cool address",
+		"date of birth" : "30/06/2020",
+		"age" : 30,
+		"printed" : "0"
+	},
+	{
+		"id" : 3,
+		"first name" : "Naruto",
+		"last name" : "Uzumaki",
+		"address" : "Leaf Village",
+		"date of birth" : "25/06/2020",
+		"age" : 26,
+		"printed" : "0"
+	},
+	{
+		"id" : 4,
+		"first name" : "Sasuke",
+		"last name" : "Uchiha",
+		"address" : "Akatsuki",
+		"date of birth" : "25/06/2020",
+		"age" : 21,
+		"printed" : "1"
+	},
+	{
+		"id" : 5,
+		"first name" : "Saukra",
+		"last name" : "Blossom",
+		"address" : "Leaf Village",
+		"date of birth" : "30/08/2020",
+		"age" : 25,
+		"printed" : "1"
+	},
+	{
+		"id" : 6,
+		"first name" : "Meralyn",
+		"last name" : "Joy",
+		"address" : "Davao",
+		"date of birth" : "01/01/2020",
+		"age" : 26,
+		"printed" : "0"
+	},
+	{
+		"id" : 7,
+		"first name" : "Leah",
+		"last name" : "Almonte",
+		"address" : "Davao",
+		"date of birth" : "28/08/2020",
+		"age" : 24,
+		"printed" : "1"
+	}
+]
